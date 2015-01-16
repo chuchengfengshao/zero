@@ -1,0 +1,124 @@
+@charset "utf-8";
+.wrapper{
+	margin:100px auto;
+	width:650px;	
+}
+.leftbox{
+	float:left;
+	width:250px;
+	margin-top:50px;	
+}
+
+.zword{
+	font-size:1.5em; 
+	font-family:"微软雅黑";
+	color:#333333;	
+}
+.zword b{
+	font-size:1.3em;	 
+	font-family:"微软雅黑";
+	color:#348FCA;	
+	/**
+	text-shadow: 3px 3px 3px #67B7E8;
+	**/
+}
+
+.loginform{
+	width:280px;
+	float:left;
+	height:200px;	
+	padding:20px;
+	border-left:1px solid #348FCA; 
+}	
+
+.tit{
+	height:30px;
+	line-height:1em; 
+	padding-left:35px;
+}
+.tit h1{
+	font-size:1em;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	color:#333333;	
+}
+
+.un,.pw{
+	width:100%;
+	height:35px;
+	line-height:35px;
+	border:1px solid #E7E7EB;
+	margin-top:-1px;
+	margin-bottom:-1px;
+}
+.un input,.pw input{
+	height:30px;
+	line-height:30px;
+	width:220px;	
+	font-family:"微软雅黑";
+	border:none;
+	background-color:#FFFFFF;
+	outline:0px none;
+	pading:10px 0px;
+	margin-left:10px;
+	
+}
+.lg{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+}	
+.lg input1{
+	width:120px;
+	height:40px;
+	font-size:1.2em;
+	font-family:"微软雅黑";
+}
+
+.font_gray{
+	color:#999999;
+}
+
+.usr_icon{
+	width:20px;
+	height:22px;
+	background-image:url(../images/user.png);
+	vertical-align:middle;
+	display:inline-block;
+}
+.pwd_icon{
+	width:20px;
+	height:22px;
+	background-image:url(../images/pwd.png);
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.btn_login {
+    background-color: #348FCA;
+    background-image: linear-gradient(to bottom, #348FCA 0px, #348FCA 100%);
+    border-color: #348FCA;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    overflow: visible;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 120px;
+}
+
+.btn_login:hover {
+    background-color: #5DAFE0;
+    background-image: linear-gradient(to bottom, #5DAFE0 0px, #5DAFE0 100%);
+    border-color: #5DAFE0;
+    box-shadow: none;
+    color: #fff;
+}
