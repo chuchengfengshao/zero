@@ -9,6 +9,6 @@
 <link rel="stylesheet" type="text/css" href="${path}/vision/css/base.css" />
 </head>
 <body>
-	欢迎使用Zero开发平台。<a href="${path}/main/core/login.jsp">立即进入</a>
+	欢迎使用Zero开发平台。：）<a href="${path}/main/core/login.jsp">立即进入</a>
 </body>
 </html>
